@@ -1,0 +1,46 @@
+/* Add these styles to the App.css file */
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #cf2727; /* Lighter purple on hover */
+}
+
+img {
+  width: 150px; /* Adjust the size of the profile picture */
+  border-radius: 50%; /* Add border-radius to make it round */
+  margin-top: 10px;
+}
+
+h2,
+p {
+  font-size: 18px; /* Adjust the font size of text */
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Add a class for the profile container to center it */
+.profile-container {
+  margin: 0 auto;
+  max-width: 300px;
+}
